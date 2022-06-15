@@ -1,2 +1,2 @@
-index.html - full assignment
+index.html - full assignment ||
 cards-index.html - cards assignment
