@@ -1,0 +1,327 @@
+/* 1025px, 800px, 600px */
+
+@media (max-width:1025px) { 
+
+    .cards-container {
+        width: 100vw;
+    }
+    
+
+    .card {
+        width: 85%;
+        padding: 16px 17px 0 17px;
+    }
+
+    .first-content-container {
+        margin-bottom: 20px;
+    }
+
+    .button {
+        padding: 1vw 0; 
+        font-size: 1.5vw;
+    }
+
+    .number {
+        font-size: 6vw;
+        top: -4vw;
+        right: 10px;
+        position: absolute;
+    }
+    
+    .main-info {
+        min-height: 10vw;
+        width: 37%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+     
+    .product {
+        font-size: 1.6vw;
+    }
+    
+    .product-image-container {
+        width: 25%;
+    }
+    
+    .product-image-container img{
+        width: 70%;
+    }
+    
+    
+    .product-company {
+        font-size: 1.3vw;
+        margin:0;
+    }
+    
+    .discount {
+        font-size: 1.1vw;
+        margin: 0;
+    }
+    
+    .rate-container {
+        width: 7%;
+    }
+    
+    .rate {
+        font-size: 3vw;
+    }
+    
+    
+    .info-icon {
+        width: 1.2vw;
+        height: 1.2vw;
+    }
+    
+    
+    .view-deal-container{
+        width: 22%;
+    }   
+    
+    .view-deal{
+        top: 0;
+    }
+
+    .on-website {
+        text-align: center;
+        margin: 0;
+        font-size: 1.2vw
+    }
+    
+    /* ___________ Toggler _____________ */
+    
+    .toggler-label {
+        left: unset;
+        right: 17%;
+        bottom: 10px;
+    }
+    .toggler-label:before {
+        font-size: 1.1vw;
+    }
+    
+    /* _____________ second-content-container _______________ */
+
+    .main-hightlights {
+        font-size: 2vw;
+        left: 0;
+    }
+    
+    .main-highlights-container ul {
+        left: 0%;
+        width: 100%;
+    }
+    
+    .main-highlights-container li {
+        font-size: 1.4vw;
+    }
+    
+    .price-container {
+        height: 100%;
+        width: 22%;
+    }
+     
+    .view-button {
+        width: 45%;
+    } 
+    
+    .deal-price {
+        font-weight: 600;
+        font-size: 2vw;
+        color: #2C384A;
+        margin: 0 0 6px 0;
+    }
+    
+    .original-price {
+        font-size: 1.4vw;
+    } 
+    
+    .red-discount {
+        font-size: 1vw;
+        right: -3%;
+    }
+    
+    .site-logo {
+        display: none;
+    }
+    
+    .site-logo-mobile {
+        display: block;
+        width: 40%;
+        height: auto;
+    }
+
+    .price-container .row {
+        margin-bottom: 0;
+    }
+
+    .price-container .row:nth-child(2) {
+        justify-content: flex-start;
+    }
+
+    .price-container .row:nth-child(3) {
+        margin-top: 4px;
+        flex-direction: row-reverse;
+    }
+}
+
+/* _______________________________________ */
+
+@media (max-width:801px) { 
+
+    .number {
+        font-size: 6.5vw;
+        top: -4.5vw;
+        right: 4vw;
+        position: absolute;
+    }
+
+    .product {
+        font-size: 1.7vw;
+    }
+    
+    .product-company {
+        font-size: 1.4vw;
+    }
+    
+    .discount {
+        font-size: 1.4vw;
+    }
+    
+    .rate-container {
+        width: 7%;
+    }
+
+    .rate {
+        font-size: 3.5vw;
+    }
+    
+    
+    .info-icon {
+        width: 1.3vw;
+        height: 1.3vw;
+    }
+    
+    .on-website {
+        font-size: 1.4vw;
+    }
+    
+    /* ___________ Toggler _____________ */
+    
+    .toggler-label:before {
+        font-size: 1.2vw;
+    }
+
+    /* _____________ second-content-container _______________ */
+
+    .main-hightlights {
+        font-size: 2.2vw;
+    }
+    
+    .main-highlights-container ul {
+        left: 0%;
+        width: 100%;
+    }
+    
+    .main-highlights-container li {
+        font-size: 1.6vw;
+    }
+    
+    
+    .deal-price {
+        font-size: 2.5vw;
+    }
+    
+    .original-price {
+        font-size: 1.7vw;
+    } 
+    
+    .red-discount {
+        font-size: 1.3vw;
+    }
+    
+}
+
+@media (max-width:600px) { 
+     
+    .product {
+        font-size: 1.7vw;
+    }
+    
+    .main-info {
+        min-height: 11vw;
+    }
+    
+    .product-company {
+        font-size: 1.4vw;
+    }
+    
+    .discount {
+        font-size: 1.4vw;
+    }
+    
+    .rate {
+        font-size: 4.5vw;
+    }
+    
+    .stars-container {
+        margin-top: 0px;
+    }
+    
+    .info-icon {
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+    
+    .button {
+        font-size: 2vw;
+    }
+
+    .on-website {
+        font-size: 1.6vw;
+    }
+    
+    /* ___________ Toggler _____________ */
+    
+    .toggler-label {
+        width: 12%;
+        right: 16%;
+    }
+    
+    /* _____________ second-content-container _______________ */
+    
+    .main-hightlights {
+        font-size: 2.5vw;
+    }
+
+    .main-highlights-container li {
+        font-size: 1.6vw;
+    }
+
+    .deal-price {
+        font-weight: 600;
+        font-size: 2vw;
+        color: #2C384A;
+        margin: 0 0 6px 0;
+    }
+    
+    .original-price {
+        font-size: 1.4vw;
+    } 
+    
+    .red-discount {
+        font-size: 1vw;
+        right: -3%;
+    }
+    
+    .site-logo {
+        display: none;
+    }
+    
+    .site-logo-mobile {
+        display: block;
+        width: 40%;
+        height: auto;
+    }
+
+}
