@@ -1,0 +1,157 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    background-color: #F2F4F7;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0;
+}
+
+.title {
+    width: 100%;
+    text-align: left;
+    grid-column: 1 / -1;
+}
+
+.grid-container {
+    width: 70vw;
+    padding: 0 2vw;
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    grid-template-rows: auto;
+    justify-items: center;
+    justify-content: space-between;
+    gap: 24px 0;
+}
+
+.grid-card {
+    width: 90%;
+    padding: 2.5vw 1vw 16px 1vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0px 51px 114px rgba(199, 199, 199, 0.15), 0px 15.375px 34.3677px rgba(199, 199, 199, 0.0895633), 0px 6.38599px 14.2746px rgba(199, 199, 199, 0.0605927), 0px 2.30969px 5.16283px rgba(199, 199, 199, 0.0352376);
+    border-radius: 12px;
+}
+
+.product-image-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.product-image-container img{
+    width: 100%;
+}
+
+.site-logo {
+    width: 30%;
+    margin-bottom: 0.3vw;
+}
+
+
+.stickers {
+    width: 75%;
+    margin: 0.8vw 0;
+    justify-content: space-between;
+}
+
+.box {
+    font-size: 1vw;
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.discount {
+    color: #FFFFFF;
+    background-color: #55A0EA;
+}
+
+.free-shipping {
+    color: #0B76E0;
+    background-color: #E1E4E6;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.product {
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: #55626E;
+    margin: 0px 0 5px 0;
+}
+
+.product-company {
+    font-size: 1vw;
+    color: #9FA9B3;
+    margin: 0 0 0 0;
+}
+
+
+
+.deal-price {
+    font-weight: 600;
+    font-size: 1.5vw;
+    color: #2C384A;
+    margin: 0.7vw 0 0.1vw 0;
+    width: 100%;
+    text-align: left;
+}
+
+.prices {
+    width: 100%;
+    margin: 3px 0 6px 0;
+    justify-content: flex-start;
+}
+
+.original-price {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1vw;
+    letter-spacing: 0.2px;
+    text-decoration-line: line-through;
+    color: #9FA9B3;
+} 
+
+.red-discount {
+    font-size: 0.6vw;
+    color: #DF0923;
+    margin: 0 0 0 5px;
+}
+
+.view-deal-button{
+    width: 100%;
+    color: white;
+    padding: 1vw 0;
+    background: #0B76E0;
+    border-radius: 12px;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+

@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1025px) {
+    
+    .grid-container {
+        width: 90vw;
+        grid-template-columns: repeat(3, 28%);
+        gap: 20px 0;
+    }
+    
+    .grid-card {
+        padding: 2.7vw 1.2vw 1.2vw 1.2vw;
+    }
+
+    .site-logo {
+        width: 32%;
+    }
+
+    .stickers {
+        width: 75%;
+        margin: 0.8vw 0;
+        justify-content: space-between;
+    }
+    
+    .box {
+        font-size: 1.2vw;
+    }
+    
+    .product {
+        font-size: 1.7vw;
+        margin: 0px 0 0.3vw 0;
+    }
+    
+    .product-company {
+        font-size: 1.4vw;
+    }
+    
+    .deal-price {
+        font-size: 2.2vw;
+        margin: 1vw 0 0.2vw 0;
+    }
+    
+    .original-price {
+        font-size: 1.4vw;
+    } 
+    
+    .red-discount {
+        font-size: 1vw;
+    }
+    
+    .view-deal-button{
+        margin-top: 4px;
+        font-size: 2vw;
+     
+    }
+    
+    
+
+}
+
+
+
+@media only screen and (max-width: 801px) {
+    
+    .grid-card {
+        padding: 3vw 1.4vw 1.4vw 1.4vw;
+    }
+
+    .site-logo {
+        width: 34%;
+    }
+
+    .stickers {
+        width: 85%;
+        margin: 0.8vw 0;
+        justify-content: space-between;
+    }
+    
+    .box {
+        font-size: 1.4vw;
+    }
+    
+    .product {
+        font-size: 1.9vw;
+        margin: 0px 0 0.4vw 0;
+    }
+    
+    .product-company {
+        font-size: 1.6vw;
+    }
+    
+    .deal-price {
+        font-size: 2.4vw;
+        margin: 1.2vw 0 0.2vw 0;
+    }
+    
+    .original-price {
+        font-size: 1.6vw;
+    } 
+    
+    .red-discount {
+        font-size: 1.2vw;
+    }
+    
+    .view-deal-button{
+        font-size: 2.2vw;
+    }
+    
+}
